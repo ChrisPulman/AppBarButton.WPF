@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppBarButton.WPF", "AppBarButton.WPF\AppBarButton.WPF.csproj", "{B4A194C9-70BB-4D3B-8003-B886C70B89A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionConfig", "SolutionConfig", "{A9841032-D2AC-476C-AB65-025A0994FF86}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitignore = ..\.gitignore
+		..\.github\workflows\BuildOnly.yml = ..\.github\workflows\BuildOnly.yml
+		..\.github\dependabot.yml = ..\.github\dependabot.yml
+		..\Directory.Build.props = ..\Directory.Build.props
+		..\.github\workflows\dotnet.yml = ..\.github\workflows\dotnet.yml
+		..\LICENSE = ..\LICENSE
+		..\Images\logo.ico = ..\Images\logo.ico
+		..\Images\logo.png = ..\Images\logo.png
+		..\README.md = ..\README.md
+		..\stylecop.json = ..\stylecop.json
+		..\Version.json = ..\Version.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBarButton.WPF.TestApp", "AppBarButton.WPF.TestApp\AppBarButton.WPF.TestApp.csproj", "{62715838-0599-4966-9B38-A648A5BBB62F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		PreRelease|Any CPU = PreRelease|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4A194C9-70BB-4D3B-8003-B886C70B89A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A194C9-70BB-4D3B-8003-B886C70B89A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A194C9-70BB-4D3B-8003-B886C70B89A3}.PreRelease|Any CPU.ActiveCfg = PreRelease|Any CPU
+		{B4A194C9-70BB-4D3B-8003-B886C70B89A3}.PreRelease|Any CPU.Build.0 = PreRelease|Any CPU
+		{B4A194C9-70BB-4D3B-8003-B886C70B89A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A194C9-70BB-4D3B-8003-B886C70B89A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62715838-0599-4966-9B38-A648A5BBB62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62715838-0599-4966-9B38-A648A5BBB62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62715838-0599-4966-9B38-A648A5BBB62F}.PreRelease|Any CPU.ActiveCfg = PreRelease|Any CPU
+		{62715838-0599-4966-9B38-A648A5BBB62F}.PreRelease|Any CPU.Build.0 = PreRelease|Any CPU
+		{62715838-0599-4966-9B38-A648A5BBB62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62715838-0599-4966-9B38-A648A5BBB62F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AF36007-4ECF-41D7-964B-3085003189F8}
+	EndGlobalSection
+EndGlobal

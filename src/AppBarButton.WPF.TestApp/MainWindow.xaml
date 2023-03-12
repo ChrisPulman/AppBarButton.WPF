@@ -1,0 +1,45 @@
+﻿<Window
+    x:Class="AppBarButton.WPF.TestApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:appbarbtn="https://github.com/ChrisPulman/AppBarButton.WPF"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Background="#FF433434"
+    mc:Ignorable="d">
+    <StackPanel Orientation="Horizontal">
+        <appbarbtn:AppBarButton
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Acrobat"
+            Icon="adobe_acrobat" />
+        <appbarbtn:AppBarButton
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Aftereffects"
+            Icon="adobe_aftereffects" />
+        <appbarbtn:AppBarButton
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Audition"
+            Icon="adobe_audition" />
+        <appbarbtn:AppBarButton
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Bridge"
+            Icon="adobe_bridge" />
+        <appbarbtn:AppBarButton
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Fireworks"
+            Icon="adobe_fireworks" />
+        <appbarbtn:AppBarButton
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Alien"
+            Icon="alien" />
+    </StackPanel>
+</Window>

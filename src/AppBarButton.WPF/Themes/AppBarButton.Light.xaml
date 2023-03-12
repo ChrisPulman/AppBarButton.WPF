@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/AppBarButton.WPF;component/Themes/AppBarButton.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!--  default accent colors and brushes  -->
+    <Color x:Key="AccentColor">#1ba1e2</Color>
+    <SolidColorBrush x:Key="Accent" Color="{DynamicResource AccentColor}" />
+    <SolidColorBrush x:Key="AppBarButtonBorder" Color="#919191" />
+    <SolidColorBrush x:Key="AppBarButtonBorderHover" Color="#333333" />
+    <SolidColorBrush x:Key="AppBarButtonBorderPressed" Color="#333333" />
+    <SolidColorBrush x:Key="AppBarButtonBorderDisabled" Color="#919191" />
+    <SolidColorBrush x:Key="AppBarButtonIconBackgroundPressed" Color="{DynamicResource AccentColor}" />
+    <SolidColorBrush x:Key="AppBarButtonIconForegroundPressed" Color="#ffffff" />
+    <SolidColorBrush x:Key="AppBarButtonText" Color="#333333" />
+    <SolidColorBrush x:Key="AppBarButtonTextHover" Color="#333333" />
+    <SolidColorBrush x:Key="AppBarButtonTextPressed" Color="#333333" />
+    <SolidColorBrush x:Key="AppBarButtonTextDisabled" Color="#a1a1a1" />
+</ResourceDictionary>

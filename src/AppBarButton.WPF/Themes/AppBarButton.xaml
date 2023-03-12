@@ -1,0 +1,96 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:AppBarButton.WPF.Controls">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/AppBarButton.WPF;component/Assets/Converters.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style TargetType="controls:AppBarButton">
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Foreground" Value="{DynamicResource AppBarButtonText}" />
+        <Setter Property="Padding" Value="1" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="controls:AppBarButton">
+                    <Grid
+                        x:Name="grid"
+                        MaxWidth="100"
+                        Margin="{TemplateBinding Padding}"
+                        Background="Transparent">
+                        <StackPanel>
+                            <Grid Width="{TemplateBinding ElipseDiameter}" Height="{TemplateBinding ElipseDiameter}">
+                                <Ellipse
+                                    x:Name="ellipse"
+                                    VerticalAlignment="Stretch"
+                                    Stroke="{DynamicResource AppBarButtonBorder}"
+                                    StrokeThickness="1" />
+                                <Path
+                                    x:Name="icon"
+                                    Width="{TemplateBinding IconWidth}"
+                                    Height="{TemplateBinding IconHeight}"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Data="{TemplateBinding IconData}"
+                                    Fill="{TemplateBinding Foreground}"
+                                    Stretch="Uniform" />
+                                <TextBlock
+                                    x:Name="BackgroundGlyph"
+                                    Margin="0,-2,0,0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    FontFamily="Segoe UI Symbol"
+                                    FontSize="{TemplateBinding BackgroundGlyphFontSize}"
+                                    Foreground="{TemplateBinding Foreground}"
+                                    Text="{TemplateBinding BackgroundGlyph}" />
+                                <TextBlock
+                                    x:Name="ForegroundGlyph"
+                                    Margin="0,-2,0,0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    FontFamily="Segoe UI Symbol"
+                                    FontSize="{TemplateBinding ForegroundGlyphFontSize}"
+                                    Foreground="{TemplateBinding ForegroundGlyphColor}"
+                                    Text="{TemplateBinding ForegroundGlyph}" />
+                            </Grid>
+                            <TextBlock
+                                MaxWidth="88"
+                                MaxHeight="32"
+                                Margin="0,0,2,0"
+                                VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                DataContext="{TemplateBinding Content}"
+                                FontSize="12"
+                                Foreground="{TemplateBinding Foreground}"
+                                Text="{Binding Converter={StaticResource ToLowerConverter}}"
+                                TextAlignment="Center"
+                                TextTrimming="WordEllipsis"
+                                TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="{DynamicResource AppBarButtonTextHover}" />
+                            <Setter TargetName="ellipse" Property="Stroke" Value="{DynamicResource AppBarButtonBorderHover}" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Foreground" Value="{DynamicResource AppBarButtonTextPressed}" />
+                            <Setter TargetName="ellipse" Property="Stroke" Value="{DynamicResource AppBarButtonBorderPressed}" />
+                            <Setter TargetName="ellipse" Property="Fill" Value="{DynamicResource AppBarButtonIconBackgroundPressed}" />
+                            <Setter TargetName="icon" Property="Fill" Value="{DynamicResource AppBarButtonIconForegroundPressed}" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="{DynamicResource AppBarButtonTextDisabled}" />
+                            <Setter TargetName="ellipse" Property="Stroke" Value="{DynamicResource AppBarButtonBorderDisabled}" />
+                        </Trigger>
+                        <Trigger Property="IsFocused" Value="true">
+                            <Setter TargetName="ellipse" Property="Stroke" Value="{DynamicResource Accent}" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
