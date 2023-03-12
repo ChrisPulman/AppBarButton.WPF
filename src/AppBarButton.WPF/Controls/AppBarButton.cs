@@ -237,20 +237,44 @@ namespace CP.WPF.Controls
         {
             Geometry? geo = default;
 
-            // find all embedded XAML icon files
-            var assembly = GetType().Assembly;
-            var iconResourceNames = from name in assembly.GetManifestResourceNames()
-                                    where name.Equals($"CP.Assets.AppBar.appbar.{icon.ToString().Replace('_', '.')}.xaml", System.StringComparison.Ordinal)
-                                    select name;
-
-            // load the resource stream
-            using (var stream = assembly.GetManifestResourceStream(iconResourceNames.First()))
+            var iconName = icon.ToString();
+            if (iconName.StartsWith("ab_"))
             {
-                // parse the icon data using xml
-                var path = XDocument.Load(stream!)?.Root?.Element("{http://schemas.microsoft.com/winfx/2006/xaml/presentation}Path");
-                if (path != null)
+                // find all embedded XAML icon files
+                var assembly = GetType().Assembly;
+                var iconResourceNames = from name in assembly.GetManifestResourceNames()
+                                        where name.Equals($"CP.Assets.AppBar.appbar.{icon.ToString().Remove(0, 3).Replace('_', '.')}.xaml", System.StringComparison.Ordinal)
+                                        select name;
+
+                // load the resource stream
+                using (var stream = assembly.GetManifestResourceStream(iconResourceNames.First()))
                 {
-                    geo = Geometry.Parse((string?)path.Attribute("Data"));
+                    // parse the icon data using xml
+                    var path = XDocument.Load(stream!)?.Root?.Element("{http://schemas.microsoft.com/winfx/2006/xaml/presentation}Path");
+                    if (path != null)
+                    {
+                        geo = Geometry.Parse((string?)path.Attribute("Data"));
+                    }
+                }
+            }
+
+            if (iconName.StartsWith("md_"))
+            {
+                // find all embedded SVG icon files
+                var assembly = GetType().Assembly;
+                var iconResourceNames = from name in assembly.GetManifestResourceNames()
+                                        where name.Equals($"CP.Assets.svg.{icon.ToString().Remove(0, 3).Replace('_', '.')}.svg", System.StringComparison.Ordinal)
+                                        select name;
+
+                // load the resource stream
+                using (var stream = assembly.GetManifestResourceStream(iconResourceNames.First()))
+                {
+                    // parse the icon data using xml
+                    var path = XDocument.Load(stream!)?.Root?.Element("{http://www.w3.org/2000/svg}path");
+                    if (path != null)
+                    {
+                        geo = Geometry.Parse((string?)path.Attribute("d"));
+                    }
                 }
             }
 

@@ -12,5 +12,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <!--https://github.com/Templarian/MaterialDesign/tree/master-->
+    <EmbeddedResource Include="Assets\svg\*.svg" />
   </ItemGroup>
 </Project>
