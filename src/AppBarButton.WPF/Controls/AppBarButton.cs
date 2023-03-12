@@ -8,7 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Xml.Linq;
 
-namespace AppBarButton.WPF.Controls
+namespace CP.WPF.Controls
 {
     /// <summary>
     /// Adds icon content to a standard button.
@@ -240,7 +240,7 @@ namespace AppBarButton.WPF.Controls
             // find all embedded XAML icon files
             var assembly = GetType().Assembly;
             var iconResourceNames = from name in assembly.GetManifestResourceNames()
-                                    where name.Equals($"AppBarButton.WPF.Assets.AppBar.appbar.{icon.ToString().Replace('_', '.')}.xaml", System.StringComparison.Ordinal)
+                                    where name.Equals($"CP.Assets.AppBar.appbar.{icon.ToString().Replace('_', '.')}.xaml", System.StringComparison.Ordinal)
                                     select name;
 
             // load the resource stream
