@@ -15,31 +15,31 @@
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Acrobat"
-            Icon="adobe_acrobat" />
+            Icon="md_abacus" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Aftereffects"
-            Icon="adobe_aftereffects" />
+            Icon="ab_adobe_aftereffects" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Audition"
-            Icon="adobe_audition" />
+            Icon="ab_adobe_audition" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Bridge"
-            Icon="adobe_bridge" />
+            Icon="ab_adobe_bridge" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Fireworks"
-            Icon="adobe_fireworks" />
+            Icon="ab_adobe_fireworks" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Alien"
-            Icon="alien" />
+            Icon="ab_alien" />
     </StackPanel>
 </Window>
