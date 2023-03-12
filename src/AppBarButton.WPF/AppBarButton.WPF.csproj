@@ -4,6 +4,7 @@
     <TargetFrameworks>net462;net6.0-windows;net7.0-windows</TargetFrameworks>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <RootNamespace>CP</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

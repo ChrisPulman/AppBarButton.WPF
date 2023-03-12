@@ -4,7 +4,7 @@
 using System;
 using System.Windows.Data;
 
-namespace AppBarButton.WPF.Converters
+namespace CP.WPF.Converters
 {
     /// <summary>
     /// Converts string values to upper case.

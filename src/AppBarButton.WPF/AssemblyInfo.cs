@@ -4,7 +4,7 @@
 using System.Windows;
 using System.Windows.Markup;
 
-[assembly: XmlnsDefinition("https://github.com/ChrisPulman/AppBarButton.WPF", "AppBarButton.WPF")]
-[assembly: XmlnsDefinition("https://github.com/ChrisPulman/AppBarButton.WPF", "AppBarButton.WPF.Controls")]
-[assembly: XmlnsPrefix("https://github.com/ChrisPulman/AppBarButton.WPF", "appbarbtn")]
+[assembly: XmlnsDefinition("https://github.com/ChrisPulman/AppBarButton.WPF", "CP.WPF")]
+[assembly: XmlnsDefinition("https://github.com/ChrisPulman/AppBarButton.WPF", "CP.WPF.Controls")]
+[assembly: XmlnsPrefix("https://github.com/ChrisPulman/AppBarButton.WPF", "abb")]
 [assembly: ThemeInfo(ResourceDictionaryLocation.None, ResourceDictionaryLocation.SourceAssembly)]
