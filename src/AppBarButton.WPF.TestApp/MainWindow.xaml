@@ -15,7 +15,7 @@
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Acrobat"
-            Icon="md_abacus" />
+            Icon="md_abugida_devanagari" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"

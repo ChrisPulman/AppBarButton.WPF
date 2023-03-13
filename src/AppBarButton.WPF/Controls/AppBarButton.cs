@@ -263,7 +263,7 @@ namespace CP.WPF.Controls
                 // find all embedded SVG icon files
                 var assembly = GetType().Assembly;
                 var iconResourceNames = from name in assembly.GetManifestResourceNames()
-                                        where name.Equals($"CP.Assets.svg.{icon.ToString().Remove(0, 3).Replace('_', '.')}.svg", System.StringComparison.Ordinal)
+                                        where name.Equals($"CP.Assets.svg.{icon.ToString().Remove(0, 3).Replace('_', '-')}.svg", System.StringComparison.Ordinal)
                                         select name;
 
                 // load the resource stream

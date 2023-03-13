@@ -20,7 +20,8 @@ This is a simple implementation of the AppBarButton for WPF.
 
 ## Icon
 
-The Icon is a enum that is used to find the icon in the `Assets\AppBar` folder. The icon is a 48x48 Canvas file.
+The Icon is a enum that is used to find the icon in the `Assets\AppBar` folder. The icon is a 48x48 Canvas file. These start with ab_.
+The icons begining with md_ are from the Material Design Icons. https://pictogrammers.com/library/mdi/
 
 You can add your own icons by setting the IconData property with a suitable path of your choice.
 
