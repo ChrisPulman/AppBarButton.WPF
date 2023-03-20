@@ -27,9 +27,15 @@ You can add your own icons by setting the IconData property with a suitable path
 
 ## Themes
 
-The theme is a ResourceDictionary that is merged into the main ResourceDictionary. The default theme is `/AppBarButton.WPF;component/Themes/Generic.xaml`.
+The theme is a ResourceDictionary that is merged into the main ResourceDictionary. 
+The default theme is `/AppBarButton.WPF;component/Themes/Generic.xaml`.
+There is also a Light theme is `/AppBarButton.WPF;component/Themes/AppBarButton.Light.xaml`.
+There is also a Dark theme is `/AppBarButton.WPF;component/Themes/AppBarButton.Dark.xaml`.
 
-Create a new ResourceDictionary and merge it into the main ResourceDictionary based on the following:
+## Custom Themes
+
+You can create your own theme by creating a new ResourceDictionary and merging it into the main ResourceDictionary.
+Create based on the following:
 
 ```xaml
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
