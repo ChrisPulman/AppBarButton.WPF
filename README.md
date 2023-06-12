@@ -1,3 +1,7 @@
+![License](https://img.shields.io/github/license/ChrisPulman/AppBarButton.WPF.svg) [![Build](https://github.com/ChrisPulman/AppBarButton.WPF/actions/workflows/BuildOnly.yml/badge.svg)](https://github.com/ChrisPulman/AppBarButton.WPF/actions/workflows/BuildOnly.yml) ![Nuget](https://img.shields.io/nuget/dt/ABPlcRx?color=pink&style=plastic) [![NuGet](https://img.shields.io/nuget/v/AppBarButton.WPF.svg?style=plastic)](https://www.nuget.org/packages/AppBarButton.WPF)
+
+![Alt](https://repobeats.axiom.co/api/embed/1131a6cd757c9be57fdf4bc9557107fedec3d7d4.svg "Repobeats analytics image")
+
 # AppBarButton.WPF
 AppBarButton for WPF
 
