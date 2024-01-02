@@ -5,28 +5,16 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build-and-release:
-
-    runs-on: windows-2022
+  windows-latest:
+    name: windows-latest
+    runs-on: windows-latest
+    
+    permissions: write-all
+    environment:
+      name: release
     outputs:
       nbgv: ${{ steps.nbgv.outputs.SemVer2 }}
     steps:
-    - name: Get Current Visual Studio Information
-      shell: bash
-      run: |
-        dotnet tool update -g dotnet-vs
-        echo "## About RELEASE ##"
-        vs where release
-        
-    - name: Update Visual Studio Latest Release
-      shell: bash
-      run: |
-        echo "## Update RELEASE ##"
-        vs update release Enterprise
-        vs modify release Enterprise +mobile +desktop +uwp +web
-        echo "## About RELEASE Updated ##"
-        vs where release
-
     - name: Checkout
       uses: actions/checkout@v3
       with:
@@ -38,6 +26,7 @@ jobs:
         dotnet-version: |
             6.0.x
             7.0.x
+            8.0.x
 
     - name: Add MSBuild to PATH
       uses: microsoft/setup-msbuild@v1.1.3
@@ -65,13 +54,24 @@ jobs:
         name: nuget
         path: '**/*.nupkg'
 
-    - name: Changelog
-      uses: glennawatson/ChangeLog@v1
-      id: changelog
-
     - name: NuGet Push
       env:
         NUGET_AUTH_TOKEN: ${{ secrets.NUGET_API_KEY }}
         SOURCE_URL: https://api.nuget.org/v3/index.json
       run: |
         dotnet nuget push -s ${{ env.SOURCE_URL }} -k ${{ env.NUGET_AUTH_TOKEN }} **/*.nupkg --skip-duplicate
+
+    - name: Changelog
+      uses: glennawatson/ChangeLog@v1
+      id: changelog
+
+    - name: Create Release
+      uses: actions/create-release@v1.1.4
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+      with:
+          tag_name: ${{ steps.nbgv.outputs.SemVer2 }}
+          release_name: ${{ steps.nbgv.outputs.SemVer2 }}
+          body: |
+            ${{ steps.changelog.outputs.commitLog }}
+
