@@ -146,6 +146,16 @@ namespace CP.WPF.Controls
         md_account_badge,
 
         /// <summary>
+        /// account box edit outline.
+        /// </summary>
+        md_account_box_edit_outline,
+
+        /// <summary>
+        /// account box minus outline.
+        /// </summary>
+        md_account_box_minus_outline,
+
+        /// <summary>
         /// account box multiple outline.
         /// </summary>
         md_account_box_multiple_outline,
@@ -159,6 +169,11 @@ namespace CP.WPF.Controls
         /// account box outline.
         /// </summary>
         md_account_box_outline,
+
+        /// <summary>
+        /// account box plus outline.
+        /// </summary>
+        md_account_box_plus_outline,
 
         /// <summary>
         /// account box.
@@ -309,6 +324,26 @@ namespace CP.WPF.Controls
         /// account eye.
         /// </summary>
         md_account_eye,
+
+        /// <summary>
+        /// account file outline.
+        /// </summary>
+        md_account_file_outline,
+
+        /// <summary>
+        /// account file text outline.
+        /// </summary>
+        md_account_file_text_outline,
+
+        /// <summary>
+        /// account file text.
+        /// </summary>
+        md_account_file_text,
+
+        /// <summary>
+        /// account file.
+        /// </summary>
+        md_account_file,
 
         /// <summary>
         /// account filter outline.
@@ -2756,6 +2791,16 @@ namespace CP.WPF.Controls
         md_arrow_left,
 
         /// <summary>
+        /// arrow oscillating off.
+        /// </summary>
+        md_arrow_oscillating_off,
+
+        /// <summary>
+        /// arrow oscillating.
+        /// </summary>
+        md_arrow_oscillating,
+
+        /// <summary>
         /// arrow projectile multiple.
         /// </summary>
         md_arrow_projectile_multiple,
@@ -3604,6 +3649,16 @@ namespace CP.WPF.Controls
         /// bag personal outline.
         /// </summary>
         md_bag_personal_outline,
+
+        /// <summary>
+        /// bag personal plus outline.
+        /// </summary>
+        md_bag_personal_plus_outline,
+
+        /// <summary>
+        /// bag personal plus.
+        /// </summary>
+        md_bag_personal_plus,
 
         /// <summary>
         /// bag personal tag outline.
@@ -5121,6 +5176,11 @@ namespace CP.WPF.Controls
         md_book_off,
 
         /// <summary>
+        /// book open blank variant outline.
+        /// </summary>
+        md_book_open_blank_variant_outline,
+
+        /// <summary>
         /// book open blank variant.
         /// </summary>
         md_book_open_blank_variant,
@@ -5139,6 +5199,11 @@ namespace CP.WPF.Controls
         /// book open page variant.
         /// </summary>
         md_book_open_page_variant,
+
+        /// <summary>
+        /// book open variant outline.
+        /// </summary>
+        md_book_open_variant_outline,
 
         /// <summary>
         /// book open variant.
@@ -6101,6 +6166,11 @@ namespace CP.WPF.Controls
         md_bus_side,
 
         /// <summary>
+        /// bus sign.
+        /// </summary>
+        md_bus_sign,
+
+        /// <summary>
         /// bus stop covered.
         /// </summary>
         md_bus_stop_covered,
@@ -6114,6 +6184,11 @@ namespace CP.WPF.Controls
         /// bus stop.
         /// </summary>
         md_bus_stop,
+
+        /// <summary>
+        /// bus wrench.
+        /// </summary>
+        md_bus_wrench,
 
         /// <summary>
         /// bus.
@@ -7001,6 +7076,11 @@ namespace CP.WPF.Controls
         md_car_defrost_rear,
 
         /// <summary>
+        /// car door lock open.
+        /// </summary>
+        md_car_door_lock_open,
+
+        /// <summary>
         /// car door lock.
         /// </summary>
         md_car_door_lock,
@@ -7601,6 +7681,11 @@ namespace CP.WPF.Controls
         md_cash_clock,
 
         /// <summary>
+        /// cash edit.
+        /// </summary>
+        md_cash_edit,
+
+        /// <summary>
         /// cash fast.
         /// </summary>
         md_cash_fast,
@@ -7916,6 +8001,11 @@ namespace CP.WPF.Controls
         md_chandelier,
 
         /// <summary>
+        /// charity search.
+        /// </summary>
+        md_charity_search,
+
+        /// <summary>
         /// charity.
         /// </summary>
         md_charity,
@@ -7954,6 +8044,16 @@ namespace CP.WPF.Controls
         /// chart bell curve.
         /// </summary>
         md_chart_bell_curve,
+
+        /// <summary>
+        /// chart box multiple outline.
+        /// </summary>
+        md_chart_box_multiple_outline,
+
+        /// <summary>
+        /// chart box multiple.
+        /// </summary>
+        md_chart_box_multiple,
 
         /// <summary>
         /// chart box outline.
@@ -9536,6 +9636,16 @@ namespace CP.WPF.Controls
         md_cloud_download,
 
         /// <summary>
+        /// cloud key outline.
+        /// </summary>
+        md_cloud_key_outline,
+
+        /// <summary>
+        /// cloud key.
+        /// </summary>
+        md_cloud_key,
+
+        /// <summary>
         /// cloud lock open outline.
         /// </summary>
         md_cloud_lock_open_outline,
@@ -9724,6 +9834,26 @@ namespace CP.WPF.Controls
         /// code array.
         /// </summary>
         md_code_array,
+
+        /// <summary>
+        /// code block braces.
+        /// </summary>
+        md_code_block_braces,
+
+        /// <summary>
+        /// code block brackets.
+        /// </summary>
+        md_code_block_brackets,
+
+        /// <summary>
+        /// code block parentheses.
+        /// </summary>
+        md_code_block_parentheses,
+
+        /// <summary>
+        /// code block tags.
+        /// </summary>
+        md_code_block_tags,
 
         /// <summary>
         /// code braces box.
@@ -11916,6 +12046,11 @@ namespace CP.WPF.Controls
         md_diamond,
 
         /// <summary>
+        /// diaper outline.
+        /// </summary>
+        md_diaper_outline,
+
+        /// <summary>
         /// dice 1 outline.
         /// </summary>
         md_dice_1_outline,
@@ -12321,6 +12456,11 @@ namespace CP.WPF.Controls
         md_donkey,
 
         /// <summary>
+        /// door closed cancel.
+        /// </summary>
+        md_door_closed_cancel,
+
+        /// <summary>
         /// door closed lock.
         /// </summary>
         md_door_closed_lock,
@@ -12454,6 +12594,11 @@ namespace CP.WPF.Controls
         /// download lock.
         /// </summary>
         md_download_lock,
+
+        /// <summary>
+        /// download multiple outline.
+        /// </summary>
+        md_download_multiple_outline,
 
         /// <summary>
         /// download multiple.
@@ -12621,9 +12766,24 @@ namespace CP.WPF.Controls
         md_earbuds,
 
         /// <summary>
+        /// earth arrow down.
+        /// </summary>
+        md_earth_arrow_down,
+
+        /// <summary>
+        /// earth arrow left.
+        /// </summary>
+        md_earth_arrow_left,
+
+        /// <summary>
         /// earth arrow right.
         /// </summary>
         md_earth_arrow_right,
+
+        /// <summary>
+        /// earth arrow up.
+        /// </summary>
+        md_earth_arrow_up,
 
         /// <summary>
         /// earth box minus.
@@ -13141,6 +13301,16 @@ namespace CP.WPF.Controls
         md_emoticon_lol,
 
         /// <summary>
+        /// emoticon minus outline.
+        /// </summary>
+        md_emoticon_minus_outline,
+
+        /// <summary>
+        /// emoticon minus.
+        /// </summary>
+        md_emoticon_minus,
+
+        /// <summary>
         /// emoticon neutral outline.
         /// </summary>
         md_emoticon_neutral_outline,
@@ -13156,6 +13326,16 @@ namespace CP.WPF.Controls
         md_emoticon_outline,
 
         /// <summary>
+        /// emoticon plus outline.
+        /// </summary>
+        md_emoticon_plus_outline,
+
+        /// <summary>
+        /// emoticon plus.
+        /// </summary>
+        md_emoticon_plus,
+
+        /// <summary>
         /// emoticon poop outline.
         /// </summary>
         md_emoticon_poop_outline,
@@ -13164,6 +13344,16 @@ namespace CP.WPF.Controls
         /// emoticon poop.
         /// </summary>
         md_emoticon_poop,
+
+        /// <summary>
+        /// emoticon remove outline.
+        /// </summary>
+        md_emoticon_remove_outline,
+
+        /// <summary>
+        /// emoticon remove.
+        /// </summary>
+        md_emoticon_remove,
 
         /// <summary>
         /// emoticon sad outline.
@@ -13309,6 +13499,11 @@ namespace CP.WPF.Controls
         /// ethernet cable.
         /// </summary>
         md_ethernet_cable,
+
+        /// <summary>
+        /// ethernet off.
+        /// </summary>
+        md_ethernet_off,
 
         /// <summary>
         /// ethernet.
@@ -13459,6 +13654,11 @@ namespace CP.WPF.Controls
         /// eye circle.
         /// </summary>
         md_eye_circle,
+
+        /// <summary>
+        /// eye closed.
+        /// </summary>
+        md_eye_closed,
 
         /// <summary>
         /// eye lock open outline.
@@ -14854,6 +15054,11 @@ namespace CP.WPF.Controls
         /// fire off.
         /// </summary>
         md_fire_off,
+
+        /// <summary>
+        /// fire station.
+        /// </summary>
+        md_fire_station,
 
         /// <summary>
         /// fire truck.
@@ -17061,6 +17266,16 @@ namespace CP.WPF.Controls
         md_gas_cylinder,
 
         /// <summary>
+        /// gas station in use outline.
+        /// </summary>
+        md_gas_station_in_use_outline,
+
+        /// <summary>
+        /// gas station in use.
+        /// </summary>
+        md_gas_station_in_use,
+
+        /// <summary>
         /// gas station off outline.
         /// </summary>
         md_gas_station_off_outline,
@@ -17204,6 +17419,21 @@ namespace CP.WPF.Controls
         /// gender transgender.
         /// </summary>
         md_gender_transgender,
+
+        /// <summary>
+        /// generator mobile.
+        /// </summary>
+        md_generator_mobile,
+
+        /// <summary>
+        /// generator portable.
+        /// </summary>
+        md_generator_portable,
+
+        /// <summary>
+        /// generator stationary.
+        /// </summary>
+        md_generator_stationary,
 
         /// <summary>
         /// gentoo.
@@ -18376,6 +18606,11 @@ namespace CP.WPF.Controls
         md_heart_remove,
 
         /// <summary>
+        /// heart search.
+        /// </summary>
+        md_heart_search,
+
+        /// <summary>
         /// heart settings outline.
         /// </summary>
         md_heart_settings_outline,
@@ -19001,9 +19236,24 @@ namespace CP.WPF.Controls
         md_hot_tub,
 
         /// <summary>
+        /// hours 12.
+        /// </summary>
+        md_hours_12,
+
+        /// <summary>
         /// hours 24.
         /// </summary>
         md_hours_24,
+
+        /// <summary>
+        /// hub outline.
+        /// </summary>
+        md_hub_outline,
+
+        /// <summary>
+        /// hub.
+        /// </summary>
+        md_hub,
 
         /// <summary>
         /// hubspot.
@@ -19059,6 +19309,11 @@ namespace CP.WPF.Controls
         /// human female dance.
         /// </summary>
         md_human_female_dance,
+
+        /// <summary>
+        /// human female female child.
+        /// </summary>
+        md_human_female_female_child,
 
         /// <summary>
         /// human female female.
@@ -19144,6 +19399,11 @@ namespace CP.WPF.Controls
         /// human male height.
         /// </summary>
         md_human_male_height,
+
+        /// <summary>
+        /// human male male child.
+        /// </summary>
+        md_human_male_male_child,
 
         /// <summary>
         /// human male male.
@@ -19726,6 +19986,271 @@ namespace CP.WPF.Controls
         md_invert_colors,
 
         /// <summary>
+        /// invoice arrow left outline.
+        /// </summary>
+        md_invoice_arrow_left_outline,
+
+        /// <summary>
+        /// invoice arrow left.
+        /// </summary>
+        md_invoice_arrow_left,
+
+        /// <summary>
+        /// invoice arrow right outline.
+        /// </summary>
+        md_invoice_arrow_right_outline,
+
+        /// <summary>
+        /// invoice arrow right.
+        /// </summary>
+        md_invoice_arrow_right,
+
+        /// <summary>
+        /// invoice check outline.
+        /// </summary>
+        md_invoice_check_outline,
+
+        /// <summary>
+        /// invoice check.
+        /// </summary>
+        md_invoice_check,
+
+        /// <summary>
+        /// invoice clock outline.
+        /// </summary>
+        md_invoice_clock_outline,
+
+        /// <summary>
+        /// invoice clock.
+        /// </summary>
+        md_invoice_clock,
+
+        /// <summary>
+        /// invoice edit outline.
+        /// </summary>
+        md_invoice_edit_outline,
+
+        /// <summary>
+        /// invoice edit.
+        /// </summary>
+        md_invoice_edit,
+
+        /// <summary>
+        /// invoice export outline.
+        /// </summary>
+        md_invoice_export_outline,
+
+        /// <summary>
+        /// invoice fast outline.
+        /// </summary>
+        md_invoice_fast_outline,
+
+        /// <summary>
+        /// invoice fast.
+        /// </summary>
+        md_invoice_fast,
+
+        /// <summary>
+        /// invoice import outline.
+        /// </summary>
+        md_invoice_import_outline,
+
+        /// <summary>
+        /// invoice import.
+        /// </summary>
+        md_invoice_import,
+
+        /// <summary>
+        /// invoice list outline.
+        /// </summary>
+        md_invoice_list_outline,
+
+        /// <summary>
+        /// invoice list.
+        /// </summary>
+        md_invoice_list,
+
+        /// <summary>
+        /// invoice minus outline.
+        /// </summary>
+        md_invoice_minus_outline,
+
+        /// <summary>
+        /// invoice minus.
+        /// </summary>
+        md_invoice_minus,
+
+        /// <summary>
+        /// invoice multiple outline.
+        /// </summary>
+        md_invoice_multiple_outline,
+
+        /// <summary>
+        /// invoice multiple.
+        /// </summary>
+        md_invoice_multiple,
+
+        /// <summary>
+        /// invoice outline.
+        /// </summary>
+        md_invoice_outline,
+
+        /// <summary>
+        /// invoice plus outline.
+        /// </summary>
+        md_invoice_plus_outline,
+
+        /// <summary>
+        /// invoice plus.
+        /// </summary>
+        md_invoice_plus,
+
+        /// <summary>
+        /// invoice remove outline.
+        /// </summary>
+        md_invoice_remove_outline,
+
+        /// <summary>
+        /// invoice remove.
+        /// </summary>
+        md_invoice_remove,
+
+        /// <summary>
+        /// invoice send outline.
+        /// </summary>
+        md_invoice_send_outline,
+
+        /// <summary>
+        /// invoice send.
+        /// </summary>
+        md_invoice_send,
+
+        /// <summary>
+        /// invoice text arrow left outline.
+        /// </summary>
+        md_invoice_text_arrow_left_outline,
+
+        /// <summary>
+        /// invoice text arrow left.
+        /// </summary>
+        md_invoice_text_arrow_left,
+
+        /// <summary>
+        /// invoice text arrow right outline.
+        /// </summary>
+        md_invoice_text_arrow_right_outline,
+
+        /// <summary>
+        /// invoice text arrow right.
+        /// </summary>
+        md_invoice_text_arrow_right,
+
+        /// <summary>
+        /// invoice text check outline.
+        /// </summary>
+        md_invoice_text_check_outline,
+
+        /// <summary>
+        /// invoice text check.
+        /// </summary>
+        md_invoice_text_check,
+
+        /// <summary>
+        /// invoice text clock outline.
+        /// </summary>
+        md_invoice_text_clock_outline,
+
+        /// <summary>
+        /// invoice text clock.
+        /// </summary>
+        md_invoice_text_clock,
+
+        /// <summary>
+        /// invoice text edit outline.
+        /// </summary>
+        md_invoice_text_edit_outline,
+
+        /// <summary>
+        /// invoice text edit.
+        /// </summary>
+        md_invoice_text_edit,
+
+        /// <summary>
+        /// invoice text fast outline.
+        /// </summary>
+        md_invoice_text_fast_outline,
+
+        /// <summary>
+        /// invoice text fast.
+        /// </summary>
+        md_invoice_text_fast,
+
+        /// <summary>
+        /// invoice text minus outline.
+        /// </summary>
+        md_invoice_text_minus_outline,
+
+        /// <summary>
+        /// invoice text minus.
+        /// </summary>
+        md_invoice_text_minus,
+
+        /// <summary>
+        /// invoice text multiple outline.
+        /// </summary>
+        md_invoice_text_multiple_outline,
+
+        /// <summary>
+        /// invoice text multiple.
+        /// </summary>
+        md_invoice_text_multiple,
+
+        /// <summary>
+        /// invoice text outline.
+        /// </summary>
+        md_invoice_text_outline,
+
+        /// <summary>
+        /// invoice text plus outline.
+        /// </summary>
+        md_invoice_text_plus_outline,
+
+        /// <summary>
+        /// invoice text plus.
+        /// </summary>
+        md_invoice_text_plus,
+
+        /// <summary>
+        /// invoice text remove outline.
+        /// </summary>
+        md_invoice_text_remove_outline,
+
+        /// <summary>
+        /// invoice text remove.
+        /// </summary>
+        md_invoice_text_remove,
+
+        /// <summary>
+        /// invoice text send outline.
+        /// </summary>
+        md_invoice_text_send_outline,
+
+        /// <summary>
+        /// invoice text send.
+        /// </summary>
+        md_invoice_text_send,
+
+        /// <summary>
+        /// invoice text.
+        /// </summary>
+        md_invoice_text,
+
+        /// <summary>
+        /// invoice.
+        /// </summary>
+        md_invoice,
+
+        /// <summary>
         /// iobroker.
         /// </summary>
         md_iobroker,
@@ -19769,6 +20294,11 @@ namespace CP.WPF.Controls
         /// iron.
         /// </summary>
         md_iron,
+
+        /// <summary>
+        /// island variant.
+        /// </summary>
+        md_island_variant,
 
         /// <summary>
         /// island.
@@ -20971,6 +21501,21 @@ namespace CP.WPF.Controls
         md_link_box,
 
         /// <summary>
+        /// link circle outline.
+        /// </summary>
+        md_link_circle_outline,
+
+        /// <summary>
+        /// link circle.
+        /// </summary>
+        md_link_circle,
+
+        /// <summary>
+        /// link edit.
+        /// </summary>
+        md_link_edit,
+
+        /// <summary>
         /// link lock.
         /// </summary>
         md_link_lock,
@@ -21841,6 +22386,11 @@ namespace CP.WPF.Controls
         md_meditation,
 
         /// <summary>
+        /// memory arrow down.
+        /// </summary>
+        md_memory_arrow_down,
+
+        /// <summary>
         /// memory.
         /// </summary>
         md_memory,
@@ -21854,6 +22404,11 @@ namespace CP.WPF.Controls
         /// menorah.
         /// </summary>
         md_menorah,
+
+        /// <summary>
+        /// menu close.
+        /// </summary>
+        md_menu_close,
 
         /// <summary>
         /// menu down outline.
@@ -22876,6 +23431,16 @@ namespace CP.WPF.Controls
         md_mouse_bluetooth,
 
         /// <summary>
+        /// mouse left click outline.
+        /// </summary>
+        md_mouse_left_click_outline,
+
+        /// <summary>
+        /// mouse left click.
+        /// </summary>
+        md_mouse_left_click,
+
+        /// <summary>
         /// mouse move down.
         /// </summary>
         md_mouse_move_down,
@@ -22894,6 +23459,26 @@ namespace CP.WPF.Controls
         /// mouse off.
         /// </summary>
         md_mouse_off,
+
+        /// <summary>
+        /// mouse outline.
+        /// </summary>
+        md_mouse_outline,
+
+        /// <summary>
+        /// mouse right click outline.
+        /// </summary>
+        md_mouse_right_click_outline,
+
+        /// <summary>
+        /// mouse right click.
+        /// </summary>
+        md_mouse_right_click,
+
+        /// <summary>
+        /// mouse scroll wheel.
+        /// </summary>
+        md_mouse_scroll_wheel,
 
         /// <summary>
         /// mouse variant off.
@@ -25101,9 +25686,39 @@ namespace CP.WPF.Controls
         md_party_popper,
 
         /// <summary>
+        /// passport alert.
+        /// </summary>
+        md_passport_alert,
+
+        /// <summary>
         /// passport biometric.
         /// </summary>
         md_passport_biometric,
+
+        /// <summary>
+        /// passport cancel.
+        /// </summary>
+        md_passport_cancel,
+
+        /// <summary>
+        /// passport check.
+        /// </summary>
+        md_passport_check,
+
+        /// <summary>
+        /// passport minus.
+        /// </summary>
+        md_passport_minus,
+
+        /// <summary>
+        /// passport plus.
+        /// </summary>
+        md_passport_plus,
+
+        /// <summary>
+        /// passport remove.
+        /// </summary>
+        md_passport_remove,
 
         /// <summary>
         /// passport.
@@ -26156,6 +26771,11 @@ namespace CP.WPF.Controls
         md_plus,
 
         /// <summary>
+        /// pocket.
+        /// </summary>
+        md_pocket,
+
+        /// <summary>
         /// podcast.
         /// </summary>
         md_podcast,
@@ -26801,6 +27421,11 @@ namespace CP.WPF.Controls
         md_progress_star,
 
         /// <summary>
+        /// progress tag.
+        /// </summary>
+        md_progress_tag,
+
+        /// <summary>
         /// progress upload.
         /// </summary>
         md_progress_upload,
@@ -27064,6 +27689,11 @@ namespace CP.WPF.Controls
         /// quality medium.
         /// </summary>
         md_quality_medium,
+
+        /// <summary>
+        /// queue first in last out.
+        /// </summary>
+        md_queue_first_in_last_out,
 
         /// <summary>
         /// quora.
@@ -28296,6 +28926,11 @@ namespace CP.WPF.Controls
         md_rounded_corner,
 
         /// <summary>
+        /// router network wireless.
+        /// </summary>
+        md_router_network_wireless,
+
+        /// <summary>
         /// router network.
         /// </summary>
         md_router_network,
@@ -29016,6 +29651,11 @@ namespace CP.WPF.Controls
         md_serial_port,
 
         /// <summary>
+        /// server minus outline.
+        /// </summary>
+        md_server_minus_outline,
+
+        /// <summary>
         /// server minus.
         /// </summary>
         md_server_minus,
@@ -29026,6 +29666,11 @@ namespace CP.WPF.Controls
         md_server_network_off,
 
         /// <summary>
+        /// server network outline.
+        /// </summary>
+        md_server_network_outline,
+
+        /// <summary>
         /// server network.
         /// </summary>
         md_server_network,
@@ -29034,6 +29679,16 @@ namespace CP.WPF.Controls
         /// server off.
         /// </summary>
         md_server_off,
+
+        /// <summary>
+        /// server outline.
+        /// </summary>
+        md_server_outline,
+
+        /// <summary>
+        /// server plus outline.
+        /// </summary>
+        md_server_plus_outline,
 
         /// <summary>
         /// server plus.
@@ -31736,6 +32391,11 @@ namespace CP.WPF.Controls
         md_swap_horizontal_circle,
 
         /// <summary>
+        /// swap horizontal hidden.
+        /// </summary>
+        md_swap_horizontal_hidden,
+
+        /// <summary>
         /// swap horizontal variant.
         /// </summary>
         md_swap_horizontal_variant,
@@ -32219,6 +32879,16 @@ namespace CP.WPF.Controls
         /// tag check.
         /// </summary>
         md_tag_check,
+
+        /// <summary>
+        /// tag edit outline.
+        /// </summary>
+        md_tag_edit_outline,
+
+        /// <summary>
+        /// tag edit.
+        /// </summary>
+        md_tag_edit,
 
         /// <summary>
         /// tag faces.
@@ -33596,6 +34266,11 @@ namespace CP.WPF.Controls
         md_traffic_light,
 
         /// <summary>
+        /// train bus.
+        /// </summary>
+        md_train_bus,
+
+        /// <summary>
         /// train car autorack.
         /// </summary>
         md_train_car_autorack,
@@ -34061,6 +34736,16 @@ namespace CP.WPF.Controls
         md_truck_minus,
 
         /// <summary>
+        /// truck off road off.
+        /// </summary>
+        md_truck_off_road_off,
+
+        /// <summary>
+        /// truck off road.
+        /// </summary>
+        md_truck_off_road,
+
+        /// <summary>
         /// truck outline.
         /// </summary>
         md_truck_outline,
@@ -34286,6 +34971,11 @@ namespace CP.WPF.Controls
         md_umbrella,
 
         /// <summary>
+        /// underwear outline.
+        /// </summary>
+        md_underwear_outline,
+
+        /// <summary>
         /// undo variant.
         /// </summary>
         md_undo_variant,
@@ -34356,6 +35046,26 @@ namespace CP.WPF.Controls
         md_update,
 
         /// <summary>
+        /// upload box outline.
+        /// </summary>
+        md_upload_box_outline,
+
+        /// <summary>
+        /// upload box.
+        /// </summary>
+        md_upload_box,
+
+        /// <summary>
+        /// upload circle outline.
+        /// </summary>
+        md_upload_circle_outline,
+
+        /// <summary>
+        /// upload circle.
+        /// </summary>
+        md_upload_circle,
+
+        /// <summary>
         /// upload lock outline.
         /// </summary>
         md_upload_lock_outline,
@@ -34364,6 +35074,11 @@ namespace CP.WPF.Controls
         /// upload lock.
         /// </summary>
         md_upload_lock,
+
+        /// <summary>
+        /// upload multiple outline.
+        /// </summary>
+        md_upload_multiple_outline,
 
         /// <summary>
         /// upload multiple.
@@ -34399,6 +35114,11 @@ namespace CP.WPF.Controls
         /// upload.
         /// </summary>
         md_upload,
+
+        /// <summary>
+        /// usb c port.
+        /// </summary>
+        md_usb_c_port,
 
         /// <summary>
         /// usb flash drive outline.
@@ -34819,6 +35539,11 @@ namespace CP.WPF.Controls
         /// video stabilization.
         /// </summary>
         md_video_stabilization,
+
+        /// <summary>
+        /// video standard definition.
+        /// </summary>
+        md_video_standard_definition,
 
         /// <summary>
         /// video switch outline.
@@ -35571,6 +36296,21 @@ namespace CP.WPF.Controls
         md_watermark,
 
         /// <summary>
+        /// wave arrow down.
+        /// </summary>
+        md_wave_arrow_down,
+
+        /// <summary>
+        /// wave arrow up.
+        /// </summary>
+        md_wave_arrow_up,
+
+        /// <summary>
+        /// wave undercurrent.
+        /// </summary>
+        md_wave_undercurrent,
+
+        /// <summary>
         /// wave.
         /// </summary>
         md_wave,
@@ -35664,6 +36404,21 @@ namespace CP.WPF.Controls
         /// weather lightning.
         /// </summary>
         md_weather_lightning,
+
+        /// <summary>
+        /// weather moonset down.
+        /// </summary>
+        md_weather_moonset_down,
+
+        /// <summary>
+        /// weather moonset up.
+        /// </summary>
+        md_weather_moonset_up,
+
+        /// <summary>
+        /// weather moonset.
+        /// </summary>
+        md_weather_moonset,
 
         /// <summary>
         /// weather night partly cloudy.

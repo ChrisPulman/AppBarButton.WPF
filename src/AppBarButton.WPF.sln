@@ -10,7 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionConfig", "SolutionC
 		..\.editorconfig = ..\.editorconfig
 		..\.gitignore = ..\.gitignore
 		..\.github\workflows\BuildOnly.yml = ..\.github\workflows\BuildOnly.yml
-		..\.github\dependabot.yml = ..\.github\dependabot.yml
 		..\Directory.Build.props = ..\Directory.Build.props
 		..\.github\workflows\dotnet.yml = ..\.github\workflows\dotnet.yml
 		..\LICENSE = ..\LICENSE
@@ -23,7 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionConfig", "SolutionC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppBarButton.WPF.TestApp", "AppBarButton.WPF.TestApp\AppBarButton.WPF.TestApp.csproj", "{62715838-0599-4966-9B38-A648A5BBB62F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumGenerator", "EnumGenerator\EnumGenerator.csproj", "{AD0154BD-0602-4157-A7E9-19059FFA9819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumGenerator", "EnumGenerator\EnumGenerator.csproj", "{AD0154BD-0602-4157-A7E9-19059FFA9819}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
