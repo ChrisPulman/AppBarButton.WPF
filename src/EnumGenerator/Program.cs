@@ -7,11 +7,13 @@ namespace EnumGenerator
 {
     internal static class Program
     {
+        private const string _rootPath = @"D:\Projects\GitHub\ChrisPulman\AppBarButton.WPF\src\AppBarButton.WPF";
+
         private static void Main(string[] args)
         {
-            // Read all files from C:\Projects\Github\AppBarButton.WPF\src\AppBarButton.WPF\Assets\svg\ and generate an enum entry for each file in a file called AppBarIcons.cs
-            var sgvfiles = Directory.GetFiles(@"C:\Projects\Github\AppBarButton.WPF\src\AppBarButton.WPF\Assets\svg\", "*.svg");
-            var xamlfiles = Directory.GetFiles(@"C:\Projects\Github\AppBarButton.WPF\src\AppBarButton.WPF\Assets\AppBar\", "*.xaml");
+            // Read all files from Assets\svg\ and generate an enum entry for each file in a file called AppBarIcons.cs
+            var sgvfiles = Directory.GetFiles(@$"{_rootPath}\Assets\svg\", "*.svg");
+            var xamlfiles = Directory.GetFiles(@$"{_rootPath}\Assets\AppBar\", "*.xaml");
             var sb = new StringBuilder();
             sb.AppendLine("// Copyright (c) Chris Pulman. All rights reserved.")
                 .AppendLine("// Licensed under the MIT license. See LICENSE file in the project root for full license information.")
@@ -51,7 +53,7 @@ namespace EnumGenerator
             sb.AppendLine("#pragma warning restore SA1300 // Element should begin with upper-case letter").AppendLine("    }")
                 .AppendLine("#pragma warning restore RCS1243 // Duplicate word in a comment.")
                 .AppendLine("}");
-            File.WriteAllText(@"C:\Projects\Github\AppBarButton.WPF\src\AppBarButton.WPF\Controls\AppBarIcons.cs", sb.ToString());
+            File.WriteAllText(@$"{_rootPath}\Controls\AppBarIcons.cs", sb.ToString());
         }
     }
 }
