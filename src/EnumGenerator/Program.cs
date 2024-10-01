@@ -54,6 +54,7 @@ namespace EnumGenerator
                 .AppendLine("#pragma warning restore RCS1243 // Duplicate word in a comment.")
                 .AppendLine("}");
             File.WriteAllText(@$"{_rootPath}\Controls\AppBarIcons.cs", sb.ToString());
+            Console.WriteLine("Files generated.");
         }
     }
 }

@@ -14,8 +14,8 @@
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
-            Content="Acrobat"
-            Icon="md_abugida_devanagari" />
+            Content="Tornado"
+            Icon="md_weather_tornado" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
