@@ -15,7 +15,7 @@
     <PackageIcon>logo.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Configurations>Debug;Release</Configurations>
-    <PackageReleaseNotes>Compatability with Net 6/7/8 and net462</PackageReleaseNotes>
+    <PackageReleaseNotes>Compatability with Net 6/8 and net462</PackageReleaseNotes>
     <PackageTags>AppBarButton;WPF;UserControl;net;MaterialDesignIcons</PackageTags>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>latest</AnalysisLevel>
