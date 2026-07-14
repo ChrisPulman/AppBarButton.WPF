@@ -15,31 +15,31 @@
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Tornado"
-            Icon="md_weather_tornado" />
+            Icon="Md_weather_tornado" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Aftereffects"
-            Icon="ab_adobe_aftereffects" />
+            Icon="Ab_adobe_aftereffects" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Audition"
-            Icon="ab_adobe_audition" />
+            Icon="Ab_adobe_audition" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Bridge"
-            Icon="ab_adobe_bridge" />
+            Icon="Ab_adobe_bridge" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Fireworks"
-            Icon="ab_adobe_fireworks" />
+            Icon="Ab_adobe_fireworks" />
         <appbarbtn:AppBarButton
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Alien"
-            Icon="ab_alien" />
+            Icon="Ab_alien" />
     </StackPanel>
 </Window>
